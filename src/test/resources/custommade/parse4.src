@@ -1,0 +1,18 @@
+program lookma is
+integer kai;
+global integer dull;
+global integer bluw[0:5];
+procedure nohands(integer khar out)
+begin
+end procedure;
+procedure ma(integer khar in)
+begin
+end procedure;
+procedure mamah(integer khar inout)
+begin
+end procedure;
+procedure mamamah(integer khar inout,integer lar inout)
+begin
+end procedure;
+begin
+end program.

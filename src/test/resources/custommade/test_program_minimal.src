@@ -1,0 +1,74 @@
+program test_program is
+    //Regular
+    //Non-Global
+    integer i;
+    integer iTwo;
+    char k;
+    float f;
+    bool b;
+    string stupid;
+    //Global
+    global integer ig;
+    global char kg;
+    global float fg;
+    global bool bg;
+    global string stupidg;
+    //Regular
+    //Non-Global
+    integer ia[1:2];
+    char ka[1:2];
+    float fa[1:2];
+    bool ba[1:2];
+    string stupida[1:2];
+    //Global
+    global integer iga[1:2];
+    global char kga[1:2];
+    global float fga[1:2];
+    global bool bga[1:2];
+    global string stupidga[1:2];
+    /*
+    procedure procOne()
+    begin
+    end procedure;
+    procedure procTwo()
+        procedure procThree()
+        integer iThree;
+        char kThree;
+        float fThree;
+        bool bThree;
+        string stupidThree;
+        global integer iThreeg;
+        global char kThreeg;
+        global float fThreeg;
+        global bool bThreeg;
+        global string stupidThreeg;
+        begin
+        end procedure;
+    begin
+    end procedure;
+    */
+    procedure procFourInt(integer catchmeifyoucan out,integer catchmeifyoucancan inout,integer catchmeifyoucancancan in)
+    begin
+    end procedure;
+    procedure procFourIntIn(integer catchmeifyoucancancan in)
+    begin
+    end procedure;
+    procedure procFourIntOut(integer catchmeifyoucan out,integer catchmeifyoucancan inout)
+    begin
+    end procedure;
+    procedure procFourchar(char catchmeifyoucan out,char catchmeifyoucancan inout,char catchmeifyoucancancan in)
+    begin
+    end procedure;
+    procedure procFourfloat(float catchmeifyoucan out,float catchmeifyoucancan inout,float catchmeifyoucancancan in)
+    begin
+    end procedure;
+    procedure procFourbool(bool catchmeifyoucan out,bool catchmeifyoucancan inout,bool catchmeifyoucancancan in)
+    begin
+    end procedure;
+    procedure procFourstring(string catchmeifyoucan out,string catchmeifyoucancan inout,string catchmeifyoucancancan in)
+    begin
+    end procedure;
+begin
+procFourIntIn(1);
+procFourIntOut(i,iTwo);
+end program .

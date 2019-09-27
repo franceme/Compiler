@@ -1,0 +1,10 @@
+#mvn='mvn -e -X'
+alias clean='mvn clean install'
+alias verify='mvn verify'
+alias validate='mvn validate'
+alias pack='mvn package'
+alias site='mvn site javadoc:javadoc '
+alias run='java -cp target/CompilerTheory*jar com.frontend.funnel'
+alias vset='mvn versions:set '
+
+alias build='clear;clean;pack'

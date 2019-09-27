@@ -1,0 +1,10 @@
+program lookma is
+integer kai;
+global integer dull;
+global integer bluw[0:5];
+procedure nohands(integer khar out)
+begin
+tester();
+end procedure;
+begin
+end program.
